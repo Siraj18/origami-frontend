@@ -1,4 +1,5 @@
 import Background from "./components/background/Background";
+import Container from "./components/container/Container";
 import Form from "./components/form/Form";
 import NavBar from "./components/navbar/NavBar";
 
@@ -11,7 +12,8 @@ function App() {
       <Background />
 
       <NavBar />
-      <Form />
+
+      <Container />
     </div>
 
   );
